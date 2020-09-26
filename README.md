@@ -7,12 +7,12 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml files may be used to install filebeat & metricbeat.
 
 
-- [install-elk.yml](Scripts/install-elk.yml)
-- [filebeat-configuration.yml](Scripts/filebeat-configuration.yml)
-- [filebeat-playbook.yml](Scripts/filebeat-playbook.yml)
-- [metricbeat-configuration.yml](Scripts/metricbeat-configuration.yml)
-- [metricbeat-playbook.yml](Scripts/metricbeat-playbook.yml)
-- [pentest.yml](Scripts/pentest.yml)
+- [install-elk.yml](Scripts/install-elk.yml.txt)
+- [filebeat-configuration.yml](Scripts/filebeat-configuration.yml.txt)
+- [filebeat-playbook.yml](Scripts/filebeat-playbook.yml.txt)
+- [metricbeat-configuration.yml](Scripts/metricbeat-configuration.yml.txt)
+- [metricbeat-playbook.yml](Scripts/metricbeat-playbook.yml.txt)
+- [pentest.yml](Scripts/pentest.yml.txt)
 
 
 This document contains the following details:
