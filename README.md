@@ -58,7 +58,7 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 
 Machines within the network can only be accessed by the Jump Box.
 
-The ELK VM can only be accessed through the Ansible Container inside the Jump Box 10.0.0.4
+The ELK VM can only be accessed through the Ansible Container inside the Jump Box 10.0.0.6
 
 A summary of the access policies in place can be found in the table below.
 
