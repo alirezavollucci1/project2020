@@ -116,5 +116,7 @@ The DATA from this sent to the ELK can be analyzed by going to: http://13.91.36.
 
 ![Kibana_Home](Images/kibana.png)
 
+- [inst
 
-![Bonus-ocker-Metric](pdf/Docker metrics.pdf)
+[Docker-Metric](pdf/Docker metrics.pdf)
+
