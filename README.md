@@ -115,3 +115,7 @@ SSH into the control node and follow the steps below:
 The DATA from this sent to the ELK can be analyzed by going to: http://13.91.36.238:5601/app/kibana
 
 ![Kibana_Home](Images/kibana.png)
+
+
+#Bonus:
+![Docker-Metric](pdf/Docker metrics.pdf)
