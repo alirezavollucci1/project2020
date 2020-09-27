@@ -24,7 +24,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 
-## Description of the Topology
+# Description of the Topology:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
@@ -49,7 +49,7 @@ Metricbeat collects metrics on the system and services running on a server.
 | Web-3    |Web Server| 10.0.0.8   | Linux             |
 | ELK      |Web Server| 10.1.0.4   | Linux             |
 
-## Access Policies
+# Access Policies:
 
 The machines on the internal network are not exposed to the public Internet. 
 
@@ -71,7 +71,7 @@ A summary of the access policies in place can be found in the table below.
 |ELK       |   No                |     10.1.0.4         |
 
 
-## Elk Configuration
+# Elk Configuration:
 
 Ansible was used to automate the configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
@@ -87,7 +87,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![sudo docker ps](Images/docker-ps.png)
+![docker ps](Images/docker-ps.png)
 
 ## Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -104,7 +104,7 @@ These Beats allow us to collect the following information from each machine:
 Filebeat collects event log data that can then be analyzed using Kibana and authenticates their integrity.
 Metricbeat collects metrics on the system and services running on a server and can be analyzed using Kibana.
 
-## Using the Playbook
+# Using the Playbook:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
@@ -114,4 +114,4 @@ SSH into the control node and follow the steps below:
 
 The DATA from this sent to the ELK can be analyzed by going to: http://13.91.36.238:5601/app/kibana
 
-![Kibana_Home_Page](Images/kibana.png)
+![Kibana_Home](Images/kibana.png)
